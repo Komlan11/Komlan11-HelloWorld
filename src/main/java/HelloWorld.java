@@ -1,4 +1,4 @@
-public class HelloWorld {
+ public class HelloWorld {
     /**
      * This method currently contains the line:
      * return "change me";
@@ -12,7 +12,11 @@ public class HelloWorld {
      * 
      * @return "Hello, world!"
      */
-    public String sayHello(){
-        return "change me";
+     static void sayHello(){
+        System.out.println("Hello, World!");
+             }
+     public static void main(String[] args){
+    sayHello();
+    
+             }
     }
-}
